@@ -1,0 +1,36 @@
+.Main {
+    min-height: 100vh;
+    background-color: #14181C;
+    color: white;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-and-right{
+    min-height: 400px;
+}
+
+.left-content{
+    min-height: 100%;
+    /* background-color: green; */
+    max-width: 800px;
+}
+
+.searchbar{
+    height: min-content;
+    overflow: hidden;
+}
+
+.vertical-sorter{
+    /* background-color: red; */
+}
+
+.right-content{
+    min-height: 100%;
+}
