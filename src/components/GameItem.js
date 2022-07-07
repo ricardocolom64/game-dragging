@@ -3,7 +3,7 @@ import '../styles/GameItem.css'
 
 export default function GameItem(props) {
     return (
-        <div className='game-item' id={props.index > 0 ? "addTopBorder" : ""}>
+        <div className='game-item'>
             <div className='game-item-content'>
                 <div className='game-image'>
                     <img src={props.image} alt="..." />
@@ -19,7 +19,7 @@ export default function GameItem(props) {
                     </div>
                     <div className='game-details'>
                         <div className='game-platform'>
-                            {props.platform}
+                            {props.platform} - id: {props.id}
                         </div>
                     </div>
                 </div>
